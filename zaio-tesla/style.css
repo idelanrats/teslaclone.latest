@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Banner styles */
+.banner {
+    background-color: #06011e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+banner p {
+    margin: 0;
+    color: white;
+}
+
+.banner a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: inherit;
+    padding: 6px 24px 16px 24px;
+}
+
+
+.banner-wrap {
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/425_HP_SolarPanels_D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0 32px;
+}
+
+.nav-item {
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: #d8d9da;
+    border-bottom-left-radius: 9900px;
+    border-bottom-right-radius: 9900px;
+    border-top-left-radius: 9900px;
+    border-top-right-radius: 9900px;
+}
+
+.material-symbols-outlined {
+    padding: 5px 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.material-symbols-outlined: :hover {
+    background-color: #d8d9da;
+    border-bottom-left-radius: 9900px;
+    border-bottom-right-radius: 9900px;
+    border-top-left-radius: 9900px;
+    border-top-right-radius : 9900px;
+}
+
+.logo {
+    height: 24px;
+    width: 120px;
+    color: white;
+}
+
+main {
+    text-align: center;
+    height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-section {
+    margin-top: calc(164px - 56px);
+}
+
+.title-section a {
+    color: black;
+}
+
+
+.actions-area {
+    margin-bottom: 100px;
+    border-radius: 70%;
+}
+button {
+    margin : 0;
+    padding : 0;
+    border : none;
+    border-radius: 2%;
+    width : 264px;
+    height : 40px;
+    padding : 7px 27px;
+    margin-right: 15px;
+}
+
+.order-button {
+    background-color: white;
+    color: black;
+    opacity: 0.5; 
+}
+
+.learn-button {
+    background-color: black;
+    color: white;
+    opacity: 0.5; 
+}
+
+
